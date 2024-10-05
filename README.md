@@ -56,8 +56,8 @@ The CSV output is formatted with the following columns:
 
 ```
 Student ID,Name,Submission,Autograded,Submission score,Score
-6730001737,Kornkanya,08 Aug 15:32 Ref # 11530487,2/5,2/5,2
-6730002337,Kitsakorn,15 Aug 23:51 Ref # 11598557,5/5,5/5,5
+6700000001,Student A,08 Aug 15:32 Ref # 11530487,2/5,2/5,2
+6700000002,Student B,15 Aug 23:51 Ref # 11598557,5/5,5/5,5
 ...
 ```
 
