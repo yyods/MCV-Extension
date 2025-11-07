@@ -36,10 +36,10 @@
         ? nameElem.innerText.replace(/\n/g, " ").trim()
         : ""; // Remove newlines from name
       const submissionDate = submissionDateElem
-        ? submissionDateElem.innerText.trim()
+        ? submissionDateElem.innerText.replace(/\n/g, " ").trim()
         : "";
       const submissionRef = submissionRefElem
-        ? submissionRefElem.innerText.trim()
+        ? submissionRefElem.innerText.replace(/\n/g, " ").trim()
         : "";
       const submission = `${submissionDate} ${submissionRef}`.trim();
       const autogradedQS = autogradedQSElem
@@ -74,10 +74,10 @@
 
       // Use empty strings for missing values or "-" placeholders
       const submissionDate = submissionDateElem
-        ? submissionDateElem.innerText.trim()
+        ? submissionDateElem.innerText.replace(/\n/g, " ").trim()
         : "";
       const submissionRef = submissionRefElem
-        ? submissionRefElem.innerText.trim()
+        ? submissionRefElem.innerText.replace(/\n/g, " ").trim()
         : "";
       const submission = `${submissionDate} ${submissionRef}`.trim();
       const autogradedQS = autogradedQSElem
